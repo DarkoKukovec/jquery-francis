@@ -16,7 +16,7 @@ NPM:
 
 ## Documentation
 
-The documentation for the plug is available [here](http://api.jquery.com/jQuery.ajax/).
+The documentation for the plugin is available [here](http://api.jquery.com/jQuery.ajax/).
 
 
 ![Library logo](francis.png)
