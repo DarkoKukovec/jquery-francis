@@ -1,3 +1,3 @@
 (function($) {
-  $.francis = $.ajax;
+  $.francis = $.ajax.bind($.ajax);
 })(jQuery);
