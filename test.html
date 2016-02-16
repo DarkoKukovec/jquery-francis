@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery Francis</title>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="jquery.francis.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('.js-get-button').on('click', function() {
+          $.francis('package.json').then(function(data) {
+            $('.js-code-container').text(JSON.stringify(data));
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button class="js-get-button">Get package.json</button>
+    <code class="js-code-container">
+
+    </code>
+  </body>
+</html>

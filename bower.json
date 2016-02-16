@@ -1,0 +1,22 @@
+{
+  "name": "jquery-francis",
+  "description": "jQuery plugin for loading data from a server without requiring a page reload",
+  "main": "jquery.francis.js",
+  "authors": [
+    "Darko Kukovec <darko@kukovec.eu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DarkoKukovec/jquery-francis",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

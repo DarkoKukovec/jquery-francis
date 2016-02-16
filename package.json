@@ -1,0 +1,19 @@
+{
+  "name": "jquery-francis",
+  "version": "1.0.0",
+  "description": "jQuery plugin for loading data from a server without requiring a page reload",
+  "main": "jquery.francis.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkoKukovec/jquery-francis.git"
+  },
+  "author": "Darko Kukovec <darko@kukovec.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkoKukovec/jquery-francis/issues"
+  },
+  "homepage": "https://github.com/DarkoKukovec/jquery-francis#readme",
+  "devDependencies": {
+    "jquery": "^2.2.0"
+  }
+}
